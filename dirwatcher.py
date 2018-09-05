@@ -10,7 +10,6 @@ import time
 import logging
 import argparse
 import os
-import re
 
 exit_flag = False
 
@@ -48,25 +47,20 @@ def dir_watcher(args):
     dir_filenames = os.listdir(my_dir)
     dir_filepaths = map(lambda filename: os.path.join(
         my_dir, filename), dir_filenames)
-    positions = ''
     for file_name in dir_filepaths:
-        with open(file_name) as file:
-            # text = file.read()
-            for num, line in enumerate(file, 1):
+        abbr_filename = os.path.basename(file_name)
+        with open(file_name) as my_file:
+            for num, line in enumerate(my_file, 1):
                 if magic_word in line:
-                    logger.info('found at {}'.format(num))
-            # if magic_word in text:
-            #     abbr_filename = os.path.basename(file_name)
-            #     positions = [(m.start(), m.end())
-            #                  for m in re.finditer(magic_word, text)]
-            #     result = [abbr_filename, positions]
-            #     for position in positions:
-            #         result.append(text[position[0]:position[1]])
-            #     with open(os.getcwd() + '/test.log', 'r') as log_file:
-            #         log_text = log_file.read()
-            #         if str(result) not in log_text:
-            #             logger.info(str(result))
-            #             print "Found the magic word! Check log for details."
+                    context = line[line.find(magic_word):]
+                    with open(os.getcwd() + '/test.log', 'r') as log_file:
+                        log_text = log_file.read()
+                        output = 'file -> {} line -> {} text -> {}'.format(
+                            abbr_filename, num, context)
+                        if output not in log_text:
+                            logger.info(
+                                'file -> {} line -> {} text -> {}'.format(
+                                    abbr_filename, num, context))
 
 
 def signal_handler(sig_num, frame):
@@ -100,7 +94,8 @@ def main():
         # Do my long-running stuff
         try:
             dir_watcher(args)
-            # put a sleep inside my while loop so I don't peg the cpu usage at 100%
+            # put a sleep inside my while loop
+            # so cpu usage not at 100%
             time.sleep(5.0)
         except IOError as e:
             logger.warning(e)
