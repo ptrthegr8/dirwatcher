@@ -1,0 +1,92 @@
+2018-09-05 13:54:03,015 : __main__ : INFO : MainThread : ['test.1.txt', [(5, 12)], 'tuesday']
+2018-09-05 13:54:03,015 : __main__ : INFO : MainThread : ['taco.2.txt', [(0, 7), (18, 25), (35, 42)], 'tuesday', 'tuesday', 'tuesday']
+2018-09-05 13:54:03,015 : __main__ : INFO : MainThread : ['taco.1.txt', [(0, 7), (18, 25), (35, 42)], 'tuesday', 'tuesday', 'tuesday']
+2018-09-05 13:54:03,016 : __main__ : INFO : MainThread : ['foo.txt', [(11, 18)], 'tuesday']
+2018-09-05 13:54:03,016 : __main__ : INFO : MainThread : ['taco.txt', [(1, 8), (12, 19), (25, 32)], 'tuesday', 'tuesday', 'tuesday']
+2018-09-05 13:54:03,016 : __main__ : INFO : MainThread : ['test.txt', [(5, 12)], 'tuesday']
+2018-09-05 13:55:11,322 : __main__ : WARNING : MainThread : Received SIGINT
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:12,549 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:17,553 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:17,553 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:17,554 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:17,554 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:17,554 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:17,555 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:22,561 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:22,561 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:22,561 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:22,561 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:22,562 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:27,563 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:27,564 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:27,564 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:27,564 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:27,564 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:27,565 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:32,566 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:32,566 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:32,567 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:32,568 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:32,568 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:32,568 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:37,569 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:37,569 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:37,570 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:37,570 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:37,570 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:37,570 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:37,570 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:37,570 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:37,571 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:37,571 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:37,571 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:37,571 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:42,571 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 1
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 10
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:42,572 : __main__ : INFO : MainThread : found at 6
+2018-09-05 13:55:42,573 : __main__ : INFO : MainThread : found at 12
+2018-09-05 13:55:42,573 : __main__ : INFO : MainThread : found at 2
+2018-09-05 13:55:43,305 : __main__ : WARNING : MainThread : Received SIGINT
